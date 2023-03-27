@@ -1,0 +1,86 @@
+.header {
+  height: 300px;
+}
+
+.img1 {
+  width: 100%;
+  object-fit: cover;
+}
+
+.logo {
+  width: 250px;
+  height: 250px;
+}
+
+.navi {
+  font-weight: bolder;
+  font-size: 150%;
+  height: 100px;
+  width: 100%;
+  margin-top: 50px;
+  background-color: #333333;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.navi:hover {
+  background-color: #ffffff;
+  color: orange;
+}
+
+.nav-bar {
+  text-align: center;
+  font-size: 30px;
+}
+
+.carousel {
+  margin-bottom: 20%;
+  margin-top: -80px;
+}
+
+.carrousel-img {
+  object-fit: cover;
+  height: 600px;
+}
+
+.carrousel-text {
+  display: inline-block;
+  color: black;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px orange, 0 0 40px orange, 0 0 70px orange, 0 0 80px orange, 0 0 100px orange;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.navegacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+}
+
+.navegacion a {
+  margin: 50px;
+  background-color: orange;
+  padding: 25px;
+  border-radius: 60%;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.navegacion a:hover {
+  background-color: #ffffff;
+  color: #333333;
+  transform: scale(1.1);
+}
+
+.claseActive {
+  color: black;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px orange, 0 0 40px orange, 0 0 70px orange, 0 0 80px orange, 0 0 100px orange;
+  font-size: 50px;
+  color: white;
+}
+
+.claseInactive {
+  color: orange;
+}

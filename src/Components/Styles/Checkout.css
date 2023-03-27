@@ -1,0 +1,129 @@
+.complete-title {
+  font-size: 50px;
+  background-color: black;
+  height: 80px;
+  color: orange;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px orange, 0 0 40px orange, 0 0 70px orange, 0 0 80px orange, 0 0 100px orange;
+  font-weight: bolder;
+  animation-name: fadeInDown;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes fadeInDown {
+  from {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+  }
+  to {
+      opacity: 1;
+      transform: none;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+  animation-name: slideInUp;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes slideInUp {
+  from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+  }
+  to {
+      opacity: 1;
+      transform: none;
+  }
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  animation-name: fadeInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid orangered;
+}
+
+@keyframes fadeInLeft {
+  from {
+      opacity: 0;
+      transform: translate3d(-100%, 0, 0);
+  }
+  to {
+      opacity: 1;
+      transform: none;
+  }
+}
+
+.complete-order-btn {
+  background-color: orange;
+  color: black;
+  border: 3px solid black;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 30px;
+  bottom: 50px;
+  padding: 5px;
+  margin-top: 50px;
+  margin-bottom: 300px;
+  animation-name: fadeInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes fadeInRight {
+  from {
+      opacity: 0;
+      transform: translate3d(100%, 0, 0);
+  }
+  to {
+      opacity: 1;
+      transform: none;
+  }
+}
+
+.continue-shopping-checkout {
+  color: orange;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 30px;
+  bottom: 50px;
+  padding: 5px;
+  margin-top: 50px;
+  margin-bottom: 300px;
+  animation-name: fadeInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+.continue-shopping-checkout:hover {
+  animation-name: shake;
+  animation-duration: 0.5s;
+}
+
+@keyframes shake {
+  from {
+    transform: translate3d(-10px, 0, 0);
+  }
+  to {
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+.continue-shopping-checkout {
+  animation: shake 0.5s ease-in-out infinite alternate;
+}
